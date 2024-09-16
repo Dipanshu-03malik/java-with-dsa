@@ -16,6 +16,7 @@ public class palindrome {
                 System.out.println(str+" is palindrome ");
             }
         }
+        sc.close();
      
     }
     
