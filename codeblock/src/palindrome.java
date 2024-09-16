@@ -17,7 +17,7 @@ public class palindrome {
             }
         }
         sc.close();
-     
+
     }
     
 }
