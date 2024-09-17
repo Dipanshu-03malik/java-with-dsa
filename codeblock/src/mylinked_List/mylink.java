@@ -122,4 +122,19 @@ public class mylink {
         }
         temp.next=null;
     }
+    // reverse an linklist
+    void reverse()
+    {
+        node prev = null;
+        node curr=head;
+        node next = null;
+        while(curr!=null)
+        {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;     
+    }
 }

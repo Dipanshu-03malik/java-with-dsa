@@ -8,7 +8,10 @@ public class clientformylink {
         list.insatbegin(20);
         list.insatbegin(30);
 //for remove
-        // list.display();
+        list.display();
+        list.reverse();
+        list.display();
+
         // list.remove_fromend();
         // list.display();
 
@@ -17,8 +20,8 @@ public class clientformylink {
         // System.out.println();
         // list.display();
 
-        list.removeAtAnyIndex(0);
-        list.display();
+        // list.removeAtAnyIndex(0);
+        // list.display();
     }
 
 }
