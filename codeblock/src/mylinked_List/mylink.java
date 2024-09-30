@@ -137,4 +137,31 @@ public class mylink {
         }
         head = prev;     
     }
+    // Cyclic linked listtt
+    //floyd algo
+    void cyclic(node head)
+    {
+        if(head==null || head.next==null)
+        {
+            System.out.println("no cycle");
+            return ;
+        }
+        else{
+            node slow = head;
+            node fast= head;
+            while(fast!=null && fast.next!=null)
+            {
+                slow=slow.next;
+                fast=fast.next.next;
+                if(fast==slow)
+                {
+                    System.out.println("Cycle detected.");
+                    // display();
+                    return;
+                }
+            }
+        }
+        System.out.println("no cycle");
+        
+    }
 }
