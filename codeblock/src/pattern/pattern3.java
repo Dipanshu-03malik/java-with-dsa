@@ -5,6 +5,9 @@
 // 54321
 package pattern;
 
+
+
+
 /**
  * pattern3
  */
